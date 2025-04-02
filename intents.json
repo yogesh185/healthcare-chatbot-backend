@@ -1,0 +1,617 @@
+{
+  "intents": [
+    {
+      "tag": "Cuts",
+      "patterns": [
+        "What to do if I have a cut?",
+        "How do I treat a cut?",
+        "Which medicine should I apply for a cut?",
+        "What should I apply on a cut?",
+        "Cuts",
+        "How to stop bleeding from a cut?",
+        "How to clean a cut?"
+      ],
+      "responses": [
+        "Wash the cut thoroughly with clean water and mild soap to prevent infection. Apply gentle pressure with a clean cloth or sterile gauze for 1-2 minutes until bleeding stops. Apply a thin layer of petroleum jelly to keep the wound moist and promote healing. Cover the cut with a sterile bandage. Over-the-counter pain relievers like acetaminophen can help manage pain. If the bleeding is severe, or the wound is deep, seek immediate medical attention. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Abrasions",
+      "patterns": [
+        "How do you treat abrasions?",
+        "Do abrasions cause scars?",
+        "Abrasions",
+        "What to do if I have abrasions?",
+        "Which medicine should I apply for abrasions?",
+        "How do I cure abrasions?",
+        "How to clean an abrasion?"
+      ],
+      "responses": [
+        "Begin with washed hands. Gently clean the area with cool to lukewarm water and mild soap. Remove dirt or other particles from the wound using sterilized tweezers. For a mild scrape that’s not bleeding, leave the wound uncovered. If the wound is bleeding, use a clean cloth or bandage, and apply gentle pressure to the area to stop any bleeding. Cover a wound that bled with a thin layer of topical antibiotic ointment, like Bacitracin, or a sterile moisture barrier ointment, like Aquaphor. Cover it with a clean bandage or gauze. Gently clean the wound and change the ointment and bandage once per day. Watch the area for signs of infection, like pain or redness and swelling. See your doctor if you suspect infection. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Stings",
+      "patterns": [
+        "How do you treat a sting?",
+        "Stings",
+        "What to do if you get a sting?",
+        "Which medicine should I apply for a sting?",
+        "How to remove a stinger?"
+      ],
+      "responses": [
+        "Remove any stingers immediately. Some experts recommend scraping out the stinger with a credit card. Apply ice to the site for 20 minutes every hour, wrapped in a towel. Taking an antihistamine such as diphenhydramine (Benadryl) or loratadine (Claritin) will help with itching and swelling. Take acetaminophen (Tylenol) or ibuprofen (Motrin) for pain relief as needed. Wash the sting site with soap and water. Placing hydrocortisone cream on the sting can help relieve redness, itching, and swelling. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Splinter",
+      "patterns": [
+        "How to remove splinters?",
+        "How do I cure splinters?",
+        "What to do if I have splinters?",
+        "How do you bring a splinter to the surface?",
+        "How to get a splinter out?"
+      ],
+      "responses": [
+        "1. Soak the area in Epsom salts. Dissolve a cup of the salts into a warm bath and soak the affected area. Alternatively, apply Epsom salts to a bandage and leave it covered for a day. 2. Soak the affected area in olive or corn oil, or white vinegar for 20-30 minutes. If the splinter is visible, use sterilized tweezers to remove it. Clean the area with soap and water after removal. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Sprains",
+      "patterns": [
+        "How do you treat a sprain?",
+        "What to do if I get a sprain?",
+        "Which cream should I apply if I get a sprain?",
+        "Which medicine should I apply if I get a sprain?",
+        "How to treat a sprained ankle?"
+      ],
+      "responses": [
+        "Use an ice pack for 15-20 minutes every 2-3 hours while awake, wrapped in a towel. Compress the sprained area with an elastic bandage until swelling stops. Over-the-counter pain relievers like ibuprofen (Advil, Motrin IB) or acetaminophen (Tylenol) can help manage pain. Elevate the sprained area. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Strains",
+      "patterns": [
+        "How do you treat a strain?",
+        "What to do if I get a strain?",
+        "Which cream should I apply if I get a strain?",
+        "Which medicine should I apply if I get a strain?",
+        "How do you diagnose a strain?",
+        "Is heat or ice better for a pulled muscle?"
+      ],
+      "responses": [
+        "Rest, ice, compression, and elevation can be used to treat strains. Avoid using the muscle for a few days. Apply ice for 15-20 minutes, wrapped in a towel, immediately after injury. Compress the affected area with an elastic bandage. After 3 days, either heat or ice may be helpful. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Fever",
+      "patterns": [
+        "How do you treat a mild fever?",
+        "What to do if I get a mild fever?",
+        "Which medicine should I take if I get a mild fever?",
+        "Fever",
+        "How to reduce a fever?"
+      ],
+      "responses": [
+        "Drink plenty of fluids to stay hydrated. Dress in lightweight clothing. Use a light blanket if you feel chilled. Take acetaminophen (Tylenol) or ibuprofen (Advil, Motrin IB). Get medical help if the fever lasts more than five days. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Nasal Congestion",
+      "patterns": [
+        "How do you treat nasal congestion?",
+        "What to do if I get nasal congestion?",
+        "Which medicine should I take if I have nasal congestion?",
+        "What to do if I have a blocked nose?",
+        "How do you treat a blocked nose?",
+        "How long does nasal congestion last?"
+      ],
+      "responses": [
+        "Use a humidifier or vaporizer. Drink plenty of fluids. Place a warm, wet towel on your face. Saline nasal spray or drops can help. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Cough",
+      "patterns": [
+        "How to cure a cough?",
+        "How do you treat a cough?",
+        "What to do if I get a cough?",
+        "Which medicine should I take if I get a cough?",
+        "How do you get rid of a cough?"
+      ],
+      "responses": [
+        "1. Honey: Mix 2 teaspoons (tsp) with warm water or herbal tea. Do not give honey to children under 1 year. 2. Ginger: Brew ginger tea. 3. Fluids: Stay hydrated. 4. Over the counter cough drops. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Sore Throat",
+      "patterns": [
+        "How do you treat a sore throat?",
+        "What to do if I get a sore throat?",
+        "Which medicine should I take if I get a sore throat?",
+        "How to cure a sore throat?"
+      ],
+      "responses": [
+        "Rest and drink plenty of fluids. Inhale steam. Gargle with warm salt water. Sip warm tea with honey. Over-the-counter pain relievers. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Gastrointestinal problems",
+      "patterns": [
+        "How do you treat gas problems?",
+        "What to do if I have gastrointestinal problems?",
+        "Which medicine should I take if I get gas problems?",
+        "How to cure gas problems?"
+      ],
+      "responses": [
+        "Replenish body fluids. Avoid antidiarrheal drugs, laxatives, or pain medication unless prescribed. Antacids may help. Eat non-spicy meals. Seek medical help if conditions persist. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Skin problems",
+      "patterns": [
+        "How do you treat skin problems?",
+        "What to do if I get a skin allergy?",
+        "Which medicine should I take if I get a skin allergy?",
+        "How to cure skin allergy?"
+      ],
+      "responses": [
+        "Hydrocortisone cream. Calamine lotion. Antihistamines. Cold compresses. Oatmeal baths. Consult your doctor for specific advice. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Abdominal Pain",
+      "patterns": [
+        "How do you treat abdominal pain?",
+        "What to do if I get abdominal pain?",
+        "Which medicine should I take if I get abdominal pain?",
+        "How to cure abdominal pain?"
+      ],
+      "responses": [
+        "Sip clear fluids. Eat bland foods. Avoid spicy or greasy foods and caffeinated or carbonated drinks. Seek medical help if pain is severe or persistent. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Bruises",
+      "patterns": [
+        "How do you treat bruises?",
+        "What to do if I get a bruise?",
+        "Which medicine should I take if I get a bruise?",
+        "How to cure bruises?"
+      ],
+      "responses": [
+        "Ice the bruise for 10-20 minutes, wrapped in a towel. Repeat several times a day. Compress the bruised area if swelling occurs. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Broken Toe",
+      "patterns": [
+        "How do you treat a broken toe?",
+        "What to do if I get a broken toe?",
+        "Which medicine should I take if I get a broken toe?",
+        "How to cure a broken toe?"
+      ],
+      "responses": [
+        "Elevate the foot, ice the injury, and stay off the foot. Seek medical attention. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Choking",
+      "patterns": [
+        "How do you treat choking?",
+        "What to do if I get a choke?",
+        "Which medicine should I take if I get choked?",
+        "How to cure choking?"
+      ],
+      "responses": [
+        "Encourage coughing. If coughing doesn't work, perform back blows and abdominal thrusts. Call emergency services immediately. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Wound",
+      "patterns": [
+        "How do you treat a wound?",
+        "What to do if I get a wound?",
+        "Which medicine should I take if I get wounded?",
+        "How to cure a wound?"
+      ],
+      "responses": [
+        "Rinse the wound with water and apply pressure with sterile gauze. Elevate the injured area. Cover the wound with a clean bandage. Seek medical attention for deep or severe wounds. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Diarrhea",
+      "patterns": [
+        "How do you treat diarrhea?",
+        "What to do if I get diarrhea?",
+        "Which medicine should I take if I get diarrhea?",
+        "How to cure diarrhea?"
+      ],
+      "responses": [
+        "Hydrate with fluids. Avoid dairy products. Seek medical advice if diarrhea lasts more than 2 days. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Frost bite",
+      "patterns": [
+        "How do you treat a frostbite?",
+        "What to do if I get a frostbite?",
+        "Which medicine should I take if I get a frostbite?",
+        "How to cure frostbite?"
+      ],
+      "responses": [
+        "Get out of the cold. Remove wet clothes and wrap up in a warm blanket. Gently rewarm frostbitten areas in warm water. Seek medical attention immediately. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Heat Exhaustion",
+      "patterns": [
+        "How do you treat heat exhaustion?",
+        "What to do if I feel exhausted due to heat?",
+        "Which medicine should I take if I get exhausted?",
+        "How to cure heat exhaustion?"
+      ],
+      "responses": [
+        "Move to a cool place. Lay down and elevate legs. Remove tight clothing. Drink cool water. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Heat Stroke",
+      "patterns": [
+        "How do you treat heat stroke?",
+        "What to do if I get a heat stroke?",
+        "Which medicine should I take if I get a stroke?",
+        "How to cure a heat stroke?"
+      ],
+      "responses": [
+        "Cool the body with cold water and fanning. Seek immediate medical attention. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Insect Bites",
+      "patterns": [
+        "How do you treat an insect bite?",
+        "What to do if an insect bites me?",
+        "Which medicine should I take if I get bitten by an insect?",
+        "How to cure an insect bite?"
+      ],
+      "responses": [
+        "Wash the area with soap and water. Apply a cold compress. Elevate the affected area. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Nose Bleed",
+      "patterns": [
+        "How do you treat a bleeding nose?",
+        "What to do if my nose is bleeding?",
+        "Which medicine should I take if I get a nose bleed?",
+        "How to cure nose bleeding?"
+      ],
+      "responses": [
+        "Sit upright and lean forward. Pinch your nose just below the bony bridge for 10-15 minutes. Apply a cold compress. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Pulled Muscle",
+      "patterns": [
+        "How do you treat a pulled muscle?",
+        "What to do if my muscle is pulled?",
+        "Which medicine should I take if I got a pulled muscle?",
+        "How to cure a pulled muscle?"
+      ],
+      "responses": [
+        "Apply ice for 10-15 minutes every hour for the first day, then every 3-4 hours. Rest the pulled muscle. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Rectal bleeding",
+      "patterns": [
+        "How do you treat rectal bleeding?",
+        "What to do if I get rectal bleeding?",
+        "Which medicine should I take if I get rectal bleeding?",
+        "How to cure rectal bleeding?"
+      ],
+      "responses": [
+        "Increase water intake. Use ice packs. Over-the-counter ointments or suppositories may help. Seek medical attention. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Sun Burn",
+      "patterns": [
+        "How do you treat a sunburn?",
+        "What to do if I get a sunburn?",
+        "Which medicine should I take if I get a sunburn?",
+        "How to cure a sunburn?"
+      ],
+      "responses": [
+        "Cool the skin. Drink water. Take pain relievers like ibuprofen. Apply aloe vera gel. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Testicle Pain",
+      "patterns": [
+        "How do you treat testicle pain?",
+        "What to do if I get testicle pain?",
+        "Which medicine should I take if I get testicle pain?",
+        "How to cure testicle pain?"
+      ],
+      "responses": [
+        "Take over-the-counter pain medication. Apply an ice pack. Seek medical attention. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Vertigo",
+      "patterns": [
+        "How do you treat vertigo?",
+        "What to do if I get vertigo?",
+        "Which medicine should I take if I get vertigo?",
+        "How to cure vertigo?"
+      ],
+      "responses": [
+        "Lie down and rest. Avoid falls. Seek medical attention for new or worsening symptoms. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Normal Bleeding",
+      "patterns": [
+        "How do you treat bleeding?",
+        "What to do if I get bleeding?",
+        "Which medicine should I take if I get bleeding?",
+        "How to cure bleeding?"
+      ],
+      "responses": [
+        "Apply direct pressure to the wound. Raise the injured limb. Use pads and bandages. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Eye Injury",
+      "patterns": [
+        "How do you treat an eye injury?",
+        "What to do if I get an eye injury?",
+        "Which medicine should I take if I injured my eye?",
+        "How to cure an injured eye?"
+      ],
+      "responses": [
+        "Do not rub the eye. Blink to flush out particles. Use eyewash or saline solution. Seek medical attention for serious injuries. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Chemical Burn",
+      "patterns": [
+        "How do you treat a chemical burn?",
+        "What to do if I get a chemical burn?",
+        "Which medicine should I take if I get burn due to chemicals?",
+        "How to cure chemical burn?"
+      ],
+      "responses": [
+        "Rinse the area with water for at least 20 minutes. Remove contaminated clothing. Do not neutralize the burn. Seek immediate medical attention. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Poison",
+      "patterns": [
+        "How do you treat poison?",
+        "What to do if I get poisoned?",
+        "Which medicine should I take if I am poisoned?",
+        "How to cure poisoning?"
+      ],
+      "responses": [
+        "Get to fresh air. Call the Poison Help line (1-800-222-1222). Remove contaminated clothing. Rinse skin with water. Seek immediate medical attention. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Teeth",
+      "patterns": [
+        "How do you treat broken teeth?",
+        "What to do if my teeth got broken?",
+        "Which medicine should I take if I get broken teeth?",
+        "Cure broken teeth?"
+      ],
+      "responses": [
+        "Rinse the tooth. Put it back into position (adult teeth only). Bite on a handkerchief. See a dentist immediately. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Seizure",
+      "patterns": [
+        "How do you treat a seizure?",
+        "What to do if I get a seizure?",
+        "Which medicine should I take if I get a seizure?",
+        "How to cure a seizure?"
+      ],
+      "responses": [
+        "Stay calm and remain with the person. Roll them onto their side. Place something soft under their head. Loosen tight clothing. Time the seizure. Call for medical help if seizure lasts longer than 5 minutes. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Head Injury",
+      "patterns": [
+        "How do you treat a head injury?",
+        "What to do if I get a head injury?",
+        "Which medicine should I take if I get injured in the head?",
+        "How to cure a head injury?"
+      ],
+      "responses": [
+        "Apply firm pressure to the wound with sterile gauze. Do not apply direct pressure if a skull fracture is suspected. Seek medical attention immediately. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Fainting",
+      "patterns": [
+        "How do you treat fainting?",
+        "What to do if I feel like fainting?",
+        "Which medicine should I take if I get a faint?",
+        "How to cure fainting?"
+      ],
+      "responses": [
+        "Lie down or sit down. Place your head between your knees. Raise the person's legs. Loosen tight clothing. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Headache",
+      "patterns": [
+        "How do you treat a mild headache?",
+        "What to do if I get a mild headache?",
+        "Which medicine should I take if I have a mild headache?",
+        "How to cure a mild headache?"
+      ],
+      "responses": [
+        "Take ibuprofen (Advil, Motrin), aspirin, or acetaminophen (Tylenol). Avoid ibuprofen if you have heart or kidney failure. Do not give aspirin to children. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Cold",
+      "patterns": [
+        "How do you treat a cold?",
+        "What to do if I get a mild cold?",
+        "Which medicine should I take if I have a cold?",
+        "How to cure a cold?"
+      ],
+      "responses": [
+        "Stay hydrated. Increase vitamin C intake. Ensure adequate vitamin D. Rest. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Rash",
+      "patterns": [
+        "How do you treat rashes?",
+        "What to do if I get a rash?",
+        "Which medicine should I take if I have a rash?",
+        "How to cure a rash?"
+      ],
+      "responses": [
+        "Apply olive oil. Use baking soda paste. Apply aloe vera gel. Avoid scratching. Consult a doctor for persistent rashes. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "snake bite",
+      "patterns": [
+        "How do you treat a snake bite?",
+        "What to do if I get a snake bite?",
+        "Which medicine should I take if I get a snake bite?",
+        "How to cure a snake bite?",
+        "I got bit by a snake"
+      ],
+      "responses": [
+        "Move away from the snake. Lie down with the wound below the heart. Keep still. Cover the wound with a loose bandage. Remove jewelry. Do not attempt to suck out the venom. Call emergency services immediately. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal bite",
+      "patterns": [
+        "How do you treat an animal bite?",
+        "How do you treat a monkey bite?",
+        "How do you treat a dog bite?",
+        "What to do if I get an animal bite?",
+        "Which medicine should I take if I get a monkey bite?",
+        "How to cure a dog bite?",
+        "I got bit by a dog"
+      ],
+      "responses": [
+        "Wash the wound with soap and water. Apply pressure to stop bleeding. Apply antibacterial ointment. Cover with a bandage. Watch for infection. Seek medical attention for severe bites or rabies risk. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Drowning",
+      "patterns": [
+        "What to do if someone is drowning?",
+        "What to do if someone drowned?",
+        "What steps to take if I see a drowning person?",
+        "How to help a drowning person?"
+      ],
+      "responses": [
+        "Check for breathing. Check the pulse. If no pulse, start CPR. Call emergency services immediately. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "CPR",
+      "patterns": [
+        "How to give CPR?",
+        "What to do in CPR?",
+        "What steps to take in CPR?",
+        "How to help a drowning person in CPR?"
+      ],
+      "responses": [
+        "Place hands on the center of the chest. Push down at least 2 inches. Do chest compressions at 100-120 per minute. Check for breathing. Call emergency services immediately. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Fracture",
+      "patterns": [
+        "How do you treat a fracture?",
+        "What to do if I get a fracture?",
+        "Which medicine should I take if I have a fracture?",
+        "How to cure a fracture?"
+      ],
+      "responses": [
+        "Stop bleeding. Immobilize the injured area. Apply ice. Treat for shock. Seek immediate medical attention. **This information is for general knowledge and first aid guidance only, and does not constitute medical advice. Always consult with a qualified healthcare professional for diagnosis and treatment.**"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Greetings",
+      "patterns": [
+        "Hey",
+        "Hello",
+        "Hi",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "What's up?",
+        "Howdy"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there!",
+        "Hey! How can I help you today?",
+        "Good to see you! What can I assist you with?",
+        "Greetings! How may I help you?"
+      ],
+      "context_set": ""
+    }
+  ]
+}
+
