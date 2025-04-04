@@ -15,13 +15,15 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000",  # Keep for local testing
-        "https://healthcare-chatbot-frontend-mu.vercel.app/"  # Replace with your actual Vercel frontend URL
+        "http://localhost:3000",
+        "https://healthcare-chatbot-frontend-mu.vercel.app",
+        "https://healthcare-chatbot-frontend-66s1bxocf-yogesh-amrutes-projects.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 # Define request model
 class ChatRequest(BaseModel):
