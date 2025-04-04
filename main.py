@@ -14,7 +14,10 @@ app = FastAPI()
 # Allow frontend (React) to communicate with backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Adjust this to match your frontend domain
+    allow_origins=[
+        "http://localhost:3000",  # Keep for local testing
+        "https://healthcare-chatbot-frontend-mu.vercel.app/"  # Replace with your actual Vercel frontend URL
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
